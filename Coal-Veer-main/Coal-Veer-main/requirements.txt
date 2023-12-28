@@ -1,0 +1,6 @@
+fastapi
+nltk
+pymongo
+python-dotenv
+spellchecker
+indexer>=0.6.2

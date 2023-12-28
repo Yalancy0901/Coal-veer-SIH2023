@@ -1,0 +1,110 @@
+<div id="container" class="container">
+  <title>CoalBot Login</title>
+  <div class="row">
+  
+    <link rel="stylesheet" href="static/login.css" />
+    <script src="static/login.js"></script>
+    
+    <div class="col align-items-center flex-col sign-up"> 
+      <div class="form-wrapper align-items-center">
+        <div class="form sign-up"> 
+          <div class="input-group">
+            <i class='bx bxs-user'></i>
+            <input type="text" placeholder="Username" name="usname" id="s_uname">
+          </div>
+          <div class="input-group">
+            <i class='bx bx-mail-send'></i>
+            <input type="email" placeholder="Email" name="email" id="s_email">
+          </div>
+          <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" placeholder="Password" name="passa"id="s_pass">
+          </div>
+          <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" placeholder="Confirm password" id="s_cpass">
+          </div>
+        
+          <button onclick="send1()">
+            Sign up
+
+          </button>
+          <p>
+            <span>
+              Already have an account?
+            </span>
+            <b onclick="toggle()" class="pointer">
+              Sign in here
+            </b>
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    <div class="col align-items-center flex-col sign-in">
+      <div class="form-wrapper align-items-center">
+        <div class="form sign-in">
+          <div class="input-group">
+            <i class='bx bxs-user'></i>
+            <input type="text" placeholder="Username" id="l_uname">
+          </div>
+          <div class="input-group">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" placeholder="Password" id="l_pas">
+          </div>
+          <button onclick="send2()">
+            Sign in
+          </button>
+          <p>
+            <b>
+              Forgot password?
+            </b>
+          </p>
+          <p>
+            <span>
+              Don't have an account?
+            </span>
+            <b onclick="toggle()" class="pointer">
+              Sign up here
+            </b>
+          </p>
+        </div>
+      </div>
+      <div class="form-wrapper">
+  
+      </div>
+    </div>
+  
+  </div>
+  
+  <div class="row content-row">
+ 
+    <div class="col align-items-center flex-col">
+      <div class="text sign-in">
+        <h2>
+          <img src="static/min.jpg" style="height: 100px; width: 113px ; float: left; margin-right:-2vw;">
+             Welcome to CoalBot...🤖
+        </h2>
+
+      </div>
+      <div class="img sign-in">
+  
+      </div>
+    </div>
+   
+    <div class="col align-items-center flex-col">
+      <div class="img sign-up">
+      
+      </div>
+      <div class="text sign-up">
+        <h2>
+          Get Your Queries Resolved...
+        </h2>
+
+      </div>
+    </div>
+    
+  </div>
+  <script src="static/input.js"></script>
+  
+</div>
